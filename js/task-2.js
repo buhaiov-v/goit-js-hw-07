@@ -32,6 +32,7 @@ const addImage = images.map((imageData) => {
 
   img.src = imageData.url;
   img.alt = imageData.alt;
+  img.width = 300;
 
   li.appendChild(img);
 
